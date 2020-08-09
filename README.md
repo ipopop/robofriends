@@ -1,6 +1,9 @@
 # robofriends
 a project from 'The-Complete-Junior-to-Senior-Web-Developer-Roadmap_2020' on Udemy 
 
+github depot :
+https://github.com/ipopop/robofriends
+
 * * *
 
 
