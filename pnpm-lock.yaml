@@ -7,6 +7,8 @@ dependencies:
   react-dom: 16.13.1_react@16.13.1
   react-scripts: 3.4.1
   tachyons: 4.12.0
+devDependencies:
+  yargs-parser: 19.0.1
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.4:
@@ -11597,6 +11599,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-3lbsNRf/j+A4QuSZfDRA7HRSfWrzO0YjqTJd5kjAq37Zep1CEgaYmrH9Q3GwPiB9cHyd1Y1UwggGhJGoxipbzg==
+  /yargs-parser/19.0.1:
+    dev: true
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-2UuJKZmPN9S9/0s3FSCG3aNUSyC/qz56oJsMZG0NV2B44QxTXaNySp4xXW10CizmUs0DXgPY0y114dOGLvtYHg==
   /yargs/12.0.5:
     dependencies:
       cliui: 4.1.0
@@ -11638,3 +11646,4 @@ specifiers:
   react-dom: ^16.13.1
   react-scripts: 3.4.1
   tachyons: ^4.12.0
+  yargs-parser: ^19.0.1
