@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import AnimBG from '../components/AnimBG'
 import CardList from '../components/CardList'
 import SearchBox from '../components/SearchBox'
 import Scroll from '../components/Scroll'
@@ -42,6 +43,7 @@ class App extends Component {
       <div className='tc'>
         <h1 className='f2'>RoboFriends</h1>
         <SearchBox searchChange={onSearchChange} />
+        <AnimBG />
         <Scroll>
           <ErrorBoundry>
             <CardList robots={filteredRobots} />
