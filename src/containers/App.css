@@ -12,3 +12,15 @@ h1 {
   font-weight: 200;
   color: #0ccac4;
 }
+
+h2 {
+  color: mediumvioletred;
+}
+
+span {
+  color: slateblue;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 33px 3px rgba( 0, 0, 0, 0.33 );
+}
